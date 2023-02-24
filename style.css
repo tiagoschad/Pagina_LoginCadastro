@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(25deg, rgb(0, 4, 255), rgb(195, 131, 230));
+    }
+
+.titulo{
+    color: white;
+    position: fixed;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    height: 500px;
+    font-size: 50px;
+    }
+
+.email{
+        height: 40px;
+        width: 300px;
+        border-radius: 20px;
+        border: solid 2px white;
+        position: fixed;
+        margin-top: -200px;
+    }
+
+.senha{
+        height: 40px;
+        width: 300px;
+        border-radius: 20px;
+        border: solid 2px white;
+        position: fixed;
+        margin-top: -75px;
+    }
+
+.email::placeholder{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+.senha::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+}    
